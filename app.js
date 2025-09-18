@@ -2,7 +2,7 @@
 // console.log(document);    (Thora HTML,CSS)
 // console.dir(document);     (long code javascript)
 
-const { Children } = require("react")
+// const { Children } = require("react")
 
 
 // console.dir(document.all[6].innertext);       all-sab a jaty       [6]-index ma h1 para  innerText-value
@@ -89,6 +89,48 @@ const { Children } = require("react")
 // REMOVE 
 // body.removeChild(btn);
 // btn.remove();    directly remove
+
+
+
+
+// PRACTICE
+let para1=document.createElement("p");
+para1.innerText="Hi I am Zumer";
+document.querySelector("body").append(para1);
+
+para1.classList.add("red");
+
+
+
+// ...............................................................................
+let h=document.createElement("h2");
+h.innerText="Zumer";
+document.querySelector("body").append(h);
+
+h.classList.add("blue");
+
+
+
+
+
+// ...............................................................................
+let parent=document.createElement("div");
+let c1=document.createElement("h1");
+let c2=document.createElement("p");
+
+
+
+c1.innerText="I am Zumer";
+c2.innerText="Zumer";
+
+
+parent.append(c1);
+parent.append(c2);
+parent.classList.add("box");
+document.querySelector("body").append(parent);
+
+
+
 
 
 
