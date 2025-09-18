@@ -76,6 +76,23 @@ const { Children } = require("react")
 // childElementCount
 
 
+// adding Element..............................................................................................
+// document.createElement("p");
+// p.appendChild(el);   page last 
+// p.appendChild(el);   page start
+// p.append(el);    line ka end
+// p.insertAdjacentElement("beforeBegin",btn);
+// p.insertAdjacentElement("afterEnd",btn);
+
+
+
+// REMOVE 
+// body.removeChild(btn);
+// btn.remove();    directly remove
+
+
+
+
 
 
 
