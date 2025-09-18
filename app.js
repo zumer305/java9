@@ -2,6 +2,8 @@
 // console.log(document);    (Thora HTML,CSS)
 // console.dir(document);     (long code javascript)
 
+const { Children } = require("react")
+
 
 // console.dir(document.all[6].innertext);       all-sab a jaty       [6]-index ma h1 para  innerText-value
 
@@ -65,6 +67,17 @@
 // Object.classList.remove("green");   //styling
 // Object.classList.contains("green");   //styling mojoodgi
 // Object.classList.toggle("green");   //styling  switch(yes-no/no-yes)just press
+
+
+// NAVIGATION ............................................................................................
+// parentElement
+// children[0],[1] 
+// previousElementSibling/nextElementSibling
+// childElementCount
+
+
+
+
 
 
 
